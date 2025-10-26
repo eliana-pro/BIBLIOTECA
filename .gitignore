@@ -1,0 +1,22 @@
+# Directorio de dependencias
+vendor/
+
+# Directorio de caché
+cache/
+
+# Archivos de logs
+log/
+
+# Archivos de configuración
+.env
+config.local.php
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.idea/
+
+# Archivos de configuración de Composer
+composer.lock
