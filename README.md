@@ -1,6 +1,6 @@
 # 📚 Biblioteca Digital UNICAB
 
-Sistema de gestión integral de recursos académicos para la Universidad UNICAB. Permite catalogar, buscar y administrar libros, artículos científicos, tesis y otros recursos educativos.
+Sistema de gestión integral de recursos académicos para la institución educativa UNICAB. Permite catalogar, buscar y administrar libros, artículos científicos, tesis y otros recursos educativos.
 
 ---
 
@@ -22,7 +22,6 @@ Sistema de gestión integral de recursos académicos para la Universidad UNICAB.
 |-----------|---------|--------|
 | XAMPP | 8.2.12 | ✅ |
 | PHP | 8.2.12+ | ✅ |
-| MariaDB | 10.4.32+ | ✅ |
 | MySQL | 8.0.44+ | ✅ |
 | Navegador | Moderno (Chrome, Firefox, Edge) | ✅ |
 
@@ -32,7 +31,7 @@ Sistema de gestión integral de recursos académicos para la Universidad UNICAB.
 
 ### 1️⃣ Clonar/Descargar el Proyecto
 ```bash
-git clone https://github.com/tu-usuario/BIBLIOTECA.git
+git clone https://github.com/eliana-pro/BIBLIOTECA.git
 cd BIBLIOTECA
 ```
 
@@ -49,14 +48,14 @@ cd BIBLIOTECA
 En la raíz del proyecto (`BIBLIOTECA/.env`):
 
 ```env
-APP_ENV=local
+APP_ENV=production
 DB_HOST=localhost
-DB_USERNAME_L=root
-DB_PASSWORD_L=
-DB_DATABASE=biblioteca_db
 DB_PORT=3306
-DB_USERNAME_P=root_prod
-DB_PASSWORD_P=password_prod
+DB_DATABASE=u756063299_biblioteca
+DB_USERNAME_L=
+DB_PASSWORD_L=
+DB_USERNAME_P=
+DB_PASSWORD_P=
 ```
 
 ### 4️⃣ Iniciar Servidor
@@ -231,7 +230,7 @@ Solución: Verificar credenciales en .env y BD activa
 
 ## 👥 Autor
 
-**Desarrollador:** [Tu Nombre]  
+**Desarrollador:** Eliana Gamboa
 **Institución:** UNICAB  
 **Año:** 2025-2026
 
@@ -239,10 +238,10 @@ Solución: Verificar credenciales en .env y BD activa
 
 ## 📄 Licencia
 
-Este proyecto es de uso interno de la Universidad UNICAB.
+Este proyecto es de uso interno de la institución educativa UNICAB.
 
 ---
 
 ## 📞 Soporte
 
-Para reportar bugs o sugerencias: [email o enlace al repositorio]
+Para reportar bugs o sugerencias: 1206velandia.g@gmail.com
