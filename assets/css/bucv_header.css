@@ -1,0 +1,79 @@
+/**
+ * bucv_header.css
+ * Estilos del header y navegación
+ */
+
+header {
+    background: #faad14;
+    padding: var(--spacing-md) var(--spacing-3xl);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-title {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    transition: transform var(--transition-fast);
+}
+
+.logo:hover {
+    transform: scale(1.02);
+}
+
+nav {
+    display: flex;
+    gap: var(--spacing-2xl);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: var(--font-size-base);
+    transition: color var(--transition-normal);
+    position: relative;
+}
+
+nav a:hover {
+    color: var(--color-primary);
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--color-secondary);
+    transition: width var(--transition-normal);
+}
+
+nav a:hover::after {
+    width: 100%;
+}

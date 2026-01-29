@@ -1,0 +1,77 @@
+/**
+ * bucv_variables.css
+ * Variables CSS - Paleta de colores UNICAB
+ * Colores planos basados en el diseño institucional
+ */
+
+:root {
+    /* Colores principales - PLANOS */
+    --color-primary: #2B7AB9;           /* Azul UNICAB */
+    --color-primary-dark: #1E5F8A;      /* Azul oscuro */
+    --color-primary-light: #4A9AD4;     /* Azul claro */
+
+    --color-secondary: #F5A623;         /* Amarillo/Naranja UNICAB */
+    --color-secondary-dark: #D4880A;    /* Naranja oscuro */
+    --color-secondary-light: #FFBE4D;   /* Naranja claro */
+
+    --color-accent: #3EAB36;            /* Verde UNICAB */
+    --color-accent-dark: #2D8A28;       /* Verde oscuro */
+    --color-accent-light: #4FBF47;      /* Verde claro */
+
+    /* Colores neutros */
+    --color-dark: #2c3e50;              /* Texto principal */
+    --color-gray-dark: #555;            /* Texto secundario */
+    --color-gray: #666;                 /* Texto terciario */
+    --color-gray-light: #888;           /* Texto suave */
+    --color-gray-lighter: #e0e0e0;      /* Bordes */
+    --color-light: #f8f9fa;             /* Fondo claro */
+    --color-white: #ffffff;             /* Blanco */
+
+    /* Colores de estado */
+    --color-success: #3EAB36;
+    --color-success-bg: #e8f5e9;
+    --color-error: #c62828;
+    --color-error-bg: #ffebee;
+    --color-warning: #F5A623;
+    --color-warning-bg: #fff8e1;
+
+    /* Sombras */
+    --shadow-sm: 0 2px 10px rgba(0,0,0,0.08);
+    --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
+    --shadow-lg: 0 8px 25px rgba(0,0,0,0.1);
+    --shadow-primary: 0 5px 20px rgba(43, 122, 185, 0.3);
+
+    /* Tipografía */
+    --font-family: 'Segoe UI', Arial, sans-serif;
+    --font-size-xs: 11px;
+    --font-size-sm: 13px;
+    --font-size-base: 14px;
+    --font-size-md: 15px;
+    --font-size-lg: 16px;
+    --font-size-xl: 18px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 28px;
+    --font-size-4xl: 32px;
+    --font-size-5xl: 42px;
+
+    /* Espaciado */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 25px;
+    --spacing-2xl: 30px;
+    --spacing-3xl: 40px;
+    --spacing-4xl: 60px;
+
+    /* Bordes */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+    --border-radius-xl: 16px;
+    --border-radius-full: 50px;
+
+    /* Transiciones */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}

@@ -1,6 +1,3 @@
-USE biblioteca;
-create database biblioteca;
-drop database biblioteca;
 
 CREATE TABLE tbl_usuarios (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,

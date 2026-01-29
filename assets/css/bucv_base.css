@@ -1,0 +1,117 @@
+/**
+ * bucv_base.css
+ * Reset y estilos base
+ */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--color-light);
+    color: var(--color-dark);
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    max-width: 1300px;
+    margin: var(--spacing-2xl) auto;
+    padding: 0 var(--spacing-3xl);
+    display: flex;
+    gap: var(--spacing-2xl);
+}
+
+/* Botones */
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 12px 25px;
+    border: none;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: var(--font-size-base);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.btn-primary:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow-primary);
+}
+
+.btn-secondary {
+    background: var(--color-white);
+    color: var(--color-primary);
+    padding: 12px 25px;
+    border: 2px solid var(--color-primary);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: var(--font-size-base);
+    transition: all var(--transition-fast);
+}
+
+.btn-secondary:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+/* Tags */
+.tag {
+    padding: 4px 10px;
+    background: var(--color-light);
+    border-radius: var(--border-radius-sm);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray);
+}
+
+.tag.available {
+    background: var(--color-success-bg);
+    color: var(--color-secondary-dark);
+}
+
+.tag.unavailable {
+    background: var(--color-error-bg);
+    color: var(--color-error);
+}
+
+/* Alertas */
+.alert {
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--border-radius-md);
+    margin-bottom: var(--spacing-xl);
+    font-weight: 500;
+}
+
+.alert-success {
+    background: var(--color-success-bg);
+    color: var(--color-secondary-dark);
+    border: 1px solid var(--color-secondary-light);
+}
+
+.alert-error {
+    background: var(--color-error-bg);
+    color: var(--color-error);
+    border: 1px solid #f5c6cb;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    margin-bottom: var(--spacing-2xl);
+    font-size: var(--font-size-base);
+    color: var(--color-gray);
+}
+
+.breadcrumb a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
