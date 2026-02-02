@@ -6,9 +6,7 @@ Sistema de gestión integral de recursos académicos para la institución educat
 
 BIBLIOTECA/
 ├── 📄 index.php                    ← Página de inicio
-├── 📄 README.md                    ← Documentación
-├── 📄 .env                         ← Variables de entorno
-├── .gitignore                      
+├── 📄 README.md                    ← Documentación                     
 │
 ├── 📁 admin/                       ← Panel administrativo
 │   ├── index.php                   ← Dashboard admin
@@ -64,7 +62,6 @@ BIBLIOTECA/
 │   └── DotEnv.php                  ← Gestor de variables .env
 │
 └── 📁 repositories/                ← Acceso a datos
-    ├── bucv_1cc2s4B3.php           ← Clase principal de BD
     └── DER.sql                     ← Esquema de BD
 
 ## 🎨 Tecnologías Utilizadas
